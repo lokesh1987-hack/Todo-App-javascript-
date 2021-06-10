@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    height: 500px;
+    width: 45vw;
+    top: 20px;
+    left: 320px;
+ 
+    background-color:rgba(99, 20, 30, 0.45);
+}
+
+.heading {
+    position: relative;
+    left: 15vw;
+    top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.box1 {
+    border: 2px;
+    background-color: burlywood;
+    margin: 0px;
+    /* padding: 5px; */
+    height: 55px;
+    display: flex;
+    position: relative;
+}
+
+.inputbox {
+    height: 25px;
+    width: 21vw;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.button {
+    height: 25px;
+    width: 21vw;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;   
+}
+#add {
+    height: 29px;
+    width: 9vw;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+#deleteAll {
+    height: 29px;
+    width: 9vw;
+    margin-top: 9px;
+    margin-right: 5px;
+}
+.box2 {
+    background-color: rosybrown;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+.table {
+    border-style: solid;
+    border-color: white;
+    width: 42.7vw;
+    height: 41.1vw;
+}
+#table {
+    padding: 7px; 
+    width: 42.vw;
+    display: flex;
+    background-color: blanchedalmond;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#item {
+    position: absolute;
+    left: 60px;
+    width: 26vw;
+    
+   /* background-color: brown;
+    margin: 10px; */
+
+}
+#index {
+    position: absolute;
+    left: 35px;
+}
+#delelebtn {
+    position: relative;
+    left: 15vw;
+}
